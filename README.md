@@ -1,6 +1,3 @@
-Here is a clean, professional, and concise `README.md` file for your **Coke Sales Analysis using Excel** project:
-
----
 
 # Coke Sales Analysis Using Excel
 
@@ -83,5 +80,3 @@ When recording your project walkthrough:
 * Actionable insights aligned with business objectives
 
 ---
-
-Feel free to copy-paste or ask for a downloadable `.md` version. Would you like one?
