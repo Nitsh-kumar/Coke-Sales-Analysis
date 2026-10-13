@@ -1,82 +1,39 @@
+# Coca-Cola Sales Analysis — Excel
 
-# Coke Sales Analysis Using Excel
+An Excel analysis project for exploring retailer sales, units sold, profitability, and time/region patterns.
 
-## 📊 Project Overview
+**Status:** workbook case study. This is an analysis exercise, not an official Coca-Cola report or a deployed analytics product.
 
-This project presents a comprehensive analysis of Coca-Cola sales across major U.S. retailers using Excel. The primary goal is to uncover insights into sales performance, regional profitability, and seasonal trends to support data-driven business decisions.
+## Artifact
 
----
+Open [Coke-sales-analysis-stubs.xlsx](Coke-sales-analysis-stubs.xlsx) in desktop Excel. Despite its filename, the supplied review found substantive pivot/chart content; it is not an empty starter file.
 
-## 🎯 Objective
+Use the workbook's data, pivot tables, charts, and available filters to trace a total back to its source records.
 
-**Business Question:**
-*How can Coca-Cola optimize sales and profitability across U.S. retailers?*
+## Questions to explore
 
-This analysis addresses performance variability across locations and time, helping Coca-Cola identify top-performing regions, improve pricing strategy, and boost operating margins in a competitive market.
+- How do sales and units vary by retailer and region?
+- How does operating profitability differ across groups?
+- What monthly patterns appear in the included data?
 
----
+Answers need workbook reconciliation before being presented as business recommendations. This README does not invent revenue, margin, or ranking results.
 
-## 🧹 Data Preparation
+## Refresh and verification
 
-* Loaded and reviewed a multi-sheet Excel dataset
-* Standardized column names and cleaned noisy headers
-* Handled missing or incorrect data entries
-* Converted data types appropriately (e.g., date fields, numerical values)
-* Structured key metrics: **Sales**, **Units Sold**, **Operating Margin**
+1. Save a working copy before changing the workbook.
+2. Inspect the underlying data range, date types, numeric columns, and pivot sources.
+3. Refresh pivot tables and check charts/slicers against the refreshed totals.
+4. Reconcile overall sales and units with the source data.
+5. Confirm filtered totals and chart categories match the intended groups.
 
----
+The prior review found charts that include pivot Grand Total rows as categories. Exclude those totals from categorical chart series before presenting distribution comparisons.
 
-## 📈 Sales & Profitability Analysis
+## Data and presentation
 
-* Analyzed unit sales, revenue, and profitability by **retailer** and **region**
-* Compared **price per unit** and its impact on overall sales
-* Identified top-performing and underperforming **locations** based on operating margin
+Document the dataset's source, period, units/currency, cleaning steps, and reuse rights. Do not imply a commercial relationship with Coca-Cola or treat sampled data as a complete view of its business.
 
----
+A future walkthrough should explain one question, the calculation path, a verified finding, and its limitation. See [project status](docs/PROJECT_STATUS.md).
 
-## 📅 Time-Based Analysis
+## Validation
 
-* Aggregated **monthly sales** to detect trends throughout the year
-* Identified **seasonal patterns** and peak sales periods
-* Monitored changes in profitability metrics over time
-
----
-
-## 📊 Data Visualization
-
-* Bar charts for comparing sales across retailers
-* Line graphs for monthly sales trends
-* Heatmaps to illustrate regional performance
-* Pivot tables and slicers for interactive exploration
-
----
-
-## 🎥 Project Demo Guidelines
-
-When recording your project walkthrough:
-
-* Find a quiet environment and maintain a professional appearance
-* Clearly define the business problem and relevance
-* Walk through the dataset structure, cleaning steps, and transformation logic
-* Highlight key patterns using visual tools and dashboards
-* Present insights and link them to Coca-Cola’s sales strategy
-* Maintain a logical and engaging narrative throughout the video
-
----
-
-## 🧠 Key Deliverables
-
-* Excel workbook with clean and labeled sheets
-* Clear, consistent formulas and formatting
-* Interactive dashboards for stakeholder exploration
-* Business recommendations supported by data insights
-
----
-
-## ✅ Best Practices Followed
-
-* Organized Excel workflow with data validation and readability
-* Visual storytelling for improved clarity
-* Actionable insights aligned with business objectives
-
----
+This documentation was checked against repository files on 13 October 2026. Notebooks, application runs, refreshes, and test suites were not executed during this documentation pass. Saved outputs are historical evidence, not a fresh run.
